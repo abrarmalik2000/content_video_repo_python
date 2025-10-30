@@ -36,10 +36,11 @@
 # os.system("mkdir -p fun_directory/new_directory/new")
 # os.system ("ls")
 # os.system ("pwd")
+# os.system("whoami")
 
 # os.mkdir("test_directory")
 
-# import numpy
+import numpy
 # create list of 4 floats 
 # homework_scores = [49.5, 48.3, 47.6, 50]
 # print(homework_scores)
@@ -47,17 +48,18 @@
 #convert the list to numpy array 
 # hw_np = numpy.array(homework_scores)
 # print (hw_np)
- 
-# list = [0,1,2,3,4,5,6,76,8,9,10]
-# print (list)
-
+# import random
+# list = []
+# for i in range(10):
+#     list.append(random.randint(1,100))
+# print(list)
 # list_np = numpy.array(list)
 # print(list_np)
 
 #initialize numpy array of size 10 
-import numpy
-np1 = numpy.zeros(100)
-print(np1)
+# import numpy
+# np1 = numpy.zeros(100)
+# print(np1)
 
-np2 = numpy.ones(100)
-print(np2)
+# np2 = numpy.ones(100)
+# print(np2)
