@@ -63,3 +63,10 @@ import numpy
 
 # np2 = numpy.ones(100)
 # print(np2)
+
+
+try:
+    userinput = int(input("input an integer: "))
+    print(userinput)
+except:
+    print('"invalid input"')
